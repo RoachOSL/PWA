@@ -15,18 +15,18 @@
 
 <body>
 <div class = "container">
-  <div class = "col-sm-12 text-center">
+  <div class = "col-sm-12 col-md-12 text-center">
     <h1>Progresive app</h1>
   </div>
   <hr>
   <div class="row">
-    <div class = "col-sm-4 text-center">
+    <div class = "col-sm-4 col-md-4 text-center">
       <h2><a href="index.html">Strona główna</a></h2>
     </div>
-    <div class="col-sm-4 text-center">
+    <div class="col-sm-4 col-md-4 text-center">
       <h2><a href="mapa.html">Mapa</a></h2>
     </div>
-    <div class="col-sm-4 text-center">
+    <div class="col-sm-4 col-md-4 text-center">
       <h2><a onclick="vibrate()">SOS</a></h2>
     </div>
   </div>
@@ -34,25 +34,26 @@
 </div>
 
 <div class="container">
-  <div class="col-sm-12">
-    <div id = "map"></div>
-    <script>
-      // Creating map options
-      var mapOptions = {
-        center: [53.8441, 22.9956],
-        zoom: 12
-      }
-
-      // Creating a map object
-      var map = new L.map('map', mapOptions);
-
-      // Creating a Layer object
-      var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
-
-      // Adding layer to the map
-      map.addLayer(layer);
-      L.control.locate().addTo(map);
-    </script>
+  <div class="col-sm-12 col-md-12 ">
+    <div id = "map" class="w-100" style="height: 500px; width: 500px;">
+      <script>
+        // Creating map options
+        var mapOptions = {
+          center: [53.8441, 22.9956],
+          zoom: 12
+        }
+  
+        // Creating a map object
+        var map = new L.map('map', mapOptions);
+  
+        // Creating a Layer object
+        var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+  
+        // Adding layer to the map
+        map.addLayer(layer);
+        L.control.locate().addTo(map);
+      </script>
+    </div>
   </div>
 </div>
 
