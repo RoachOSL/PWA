@@ -1,6 +1,6 @@
 const staticHealAnima = "dev-healthy-animal-site-v1"
 const assets = [
-  "index.html",
+  "/PWA/",
   "css/style.css",
   "js/app.js",
 ]
