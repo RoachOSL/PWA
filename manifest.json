@@ -4,7 +4,7 @@
     "description": "My First PWA",
     "icons": [
       {
-        "src": "/pwa-icon.png",
+        "src": "pwa-icon.png",
         "type": "image/png",
         "sizes": "512x512 ",
         "purpose": "any maskable"
