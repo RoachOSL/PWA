@@ -1,8 +1,11 @@
 const staticHealAnima = "dev-healthy-animal-site-v1"
 const assets = [
   "/PWA/",
+  "/PWA/index.html",
+  "/PWA/mapa.html",
   "css/style.css",
   "js/app.js",
+  "pwa-icon.png"
 ]
 
 self.addEventListener("install", installEvent => {
