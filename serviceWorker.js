@@ -1,8 +1,8 @@
 const staticHealAnima = "dev-healthy-animal-site-v1"
 const assets = [
-  "/index.html",
-  "/css/style.css",
-  "/js/app.js",
+  "index.html",
+  "css/style.css",
+  "js/app.js",
 ]
 
 self.addEventListener("install", installEvent => {
