@@ -11,7 +11,7 @@
       }
     ],
     "start_url": "index.html",
-    "scope":"index.html",
+    "scope":"/PWA/",
     "background_color": "white",
     "display": "standalone",
     "theme_color": "white"
